@@ -14,7 +14,7 @@ const Navbar = () => {
                         className={ ({ isActive }) => `nav-link ${ isActive ? 'active' : '' } ` }
                         to="/"
                         >
-                        Home
+                        HomePage
                     </NavLink>
                     
                     <NavLink 

@@ -11,7 +11,7 @@ const HomePage = () => {
 
         <small>  welcome {user?.name} </small>
 
-        <pre>
+        <pre aria-label='pre'>
         {JSON.stringify( user, null, 3)}
         </pre>
 

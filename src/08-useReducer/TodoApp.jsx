@@ -7,7 +7,14 @@ import { useTodo } from './useTodo'
 
 const TodoApp = () => {
 
-    const { todos, handleDeleteTodo, todosCount, pendingTodos, handleNewTodo, handleToggleTodo } = useTodo()
+    const { 
+        todos, 
+        todosCount, 
+        pendingTodos, 
+        handleNewTodo, 
+        handleDeleteTodo, 
+        handleToggleTodo 
+    } = useTodo()
 
 
     useEffect( () => {
